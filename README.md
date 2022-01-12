@@ -1,4 +1,4 @@
-# lazarusfreepascal
+# Lazarus Free Pascal
 
 Catatan ini berfungsi untuk merekam sejarah coding menggunakan aplikasi Lazarus dan Free Pascal.
 
