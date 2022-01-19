@@ -129,7 +129,42 @@ end.
 ```
 
 
+Source code sederhana untuk menampilkan/menulis isi variabel ke console/terminal:
 
+```pascal
+
+unit file2;
+
+{$mode ObjFPC}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils;
+
+implementation
+
+
+type
+
+  nama = string;
+
+  var
+
+  namadepan,belakang: nama;
+
+begin
+       namadepan := 'test';
+
+       writeln(namadepan);
+       readln;
+
+
+end.
+             
+
+
+```
 
 
 
