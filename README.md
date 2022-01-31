@@ -168,6 +168,92 @@ end.
 
 
 
+Source code untuk menampilkan hasil inputan ke label :
+
+```pascal
+
+unit file2;
+
+{$mode ObjFPC}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls;
+
+type
+
+  { TForm2 }
+
+  TForm2 = class(TForm)
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    procedure Button1Click(Sender: TObject);
+  private
+
+  public
+
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.lfm}
+
+{ TForm2 }
+
+procedure TForm2.Button1Click(Sender: TObject);
+
+
+type
+
+
+  nama = string;
+
+
+var
+
+   idkaryawan,namapegawai: nama;
+
+begin
+
+  idkaryawan := Edit1.Text;
+
+  namapegawai := Edit2.Text;
+
+  Label1.Caption := idkaryawan;
+
+end;
+
+end.
+                                 
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
